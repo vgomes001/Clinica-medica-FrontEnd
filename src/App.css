@@ -1,38 +1,105 @@
-.App {
+.form-container {
+  max-width: 500px;
+  width: 90%;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 3rem;
   text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-container h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-wrapper {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 0px; /* Espaçamento entre a imagem e o formulário */
+  max-width: 900px;
+  margin: 30px auto;
 }
 
-.App-link {
-  color: #61dafb;
+.image-container img {
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+form {
+  max-width: 500px;
+  width: 90%;
+  margin: 30px auto;
+  background-color: rgb(255, 255, 255);
+  padding: 3rem;
+  text-align: center ;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgb(0, 0, 0, 0.1);
+}
+
+form input {
+  margin-bottom: 5px;
+}
+
+form input[type='button'] {
+  margin-right: 10px;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  margin: 30px auto;
+  background-image: url ("https://img.freepik.com/vetores-premium/ilustracao-de-medico-de-conceito_598748-175.jpg?w=996");
+  background-position: center;
+  position: relative;
+}
+
+
+.menu-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  color: #201b1b;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+}
+
+.menu-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+.menu-button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.listagem-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #d4d4d4;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 20px;
 }
