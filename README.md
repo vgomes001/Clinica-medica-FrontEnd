@@ -13,7 +13,7 @@
 
 **Linguagem:** JavaScript 
 
-**Biblioteca:** REACT
+**Framework:** REACT
 
 **Estrutura e estilização** HTML e CSS
 <hr>
