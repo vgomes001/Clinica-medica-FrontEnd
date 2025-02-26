@@ -22,5 +22,10 @@
 ## Telas do Projesto 
 
 **MENU** - Tela inicial com acesso ao módulos da clínica
- <img src="![Image](https://github.com/user-attachments/assets/344ff19a-81c2-4453-b197-db33b3509033)" width="400px" />
+
+ <img src="https://github.com/user-attachments/assets/344ff19a-81c2-4453-b197-db33b3509033" width="90%" />
+
+ **Cadastro de Médicos** - Tela de cadastros dos médicos na clínica, preechendo os campos 
+
+ <img src="https://github.com/user-attachments/assets/344ff19a-81c2-4453-b197-db33b3509033" width="90%" />
 
