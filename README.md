@@ -7,8 +7,8 @@
 
 **Vollmed** é um projeto desenvolvido com objetivo de auxiliar no cadastro de médicos e pacientes em uma clínica médica que recebeu o nome de VOLLMED. Com um Front End desenvolvido em linguagem JavaScrip ejunto com biblioteca REACT para implementação e integração com o Back End, além do uso de CSS e HTML para estrturar e estilazar as páginas da WEB.
 <hr>
-
-## Técnologias usadas no Front End
+<hr>
+## Técnologias 
 
 **Linguagem:** JavaScript 
 
