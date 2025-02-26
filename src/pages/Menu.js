@@ -15,11 +15,17 @@ function Menu() {
         <h1 className="menu-title">VOLLMED</h1>
 
         <div className="menu-buttons">
-          <Link to="/cadastro">
+          <Link to="/cadastroMedicos">
             <button className="menu-button">Cadastrar Médico</button>
           </Link>
-          <Link to="/listagem">
+          <Link to="/listagemMedicos">
             <button className="menu-button">Médicos Cadastrados</button>
+          </Link>
+          <Link to="/cadastroPacientes">
+            <button className="menu-button">Cadastrar Pacientes</button>
+          </Link>
+          <Link to="/listagemPacientes">
+            <button className="menu-button">Pacientes Cadastrados</button>
           </Link>
         </div>
       </div>

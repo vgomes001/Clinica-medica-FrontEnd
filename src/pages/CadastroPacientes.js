@@ -1,40 +1,39 @@
 import { useEffect, useState } from 'react';
 import '../App.css';
 import { Link } from 'react-router-dom';
-import Formulario from '../Formulario';
 import Tabela from "../TabelaMedico";
+import Paciente from '../Paciente';
 
-function CadastroMedico() {
+function CadastroPacientes() {
 
   const cadastro = {
     nome: '',
     email: '',
     telefone: '',
-    crm: '',
-    especialidade: ''
+    cpf: ''
   }
 
   const [btnsCadastrar, setBtnCadastrar] = useState(true);
-  const [medico, setMedico] = useState([]);
+  const [paciente, setPaciente] = useState([]);
   const [objCadastro, setObjCadastro] = useState(cadastro);
 
   useEffect(() => {
-    fetch("http://localhost:8080/medicos")
+    fetch("http://localhost:8080/pacientes")
       .then((res) => res.json())
       .then((data) => {
         console.log("Resposta da API:", data); // 📌 Verifique o que está chegando
         if (Array.isArray(data)) {
-          setMedico(data);
+          setPaciente(data);
         } else if (data && Array.isArray(data.content)) {
-          setMedico(data.content); // 📌 Se estiver dentro de "content", pegue corretamente
+          setPaciente(data.content); // 📌 Se estiver dentro de "content", pegue corretamente
         } else {
           console.error("Erro: a resposta não é um array", data);
-          setMedico([]); // Evita erro no .map()
+          setPaciente([]); // Evita erro no .map()
         }
       })
       .catch((error) => {
         console.error("Erro na requisição:", error);
-        setMedico([]); // Evita que medicos fique undefined
+        setPaciente([]); // Evita que medicos fique undefined
       });
   }, []);
 
@@ -43,7 +42,7 @@ function CadastroMedico() {
   }
 
   const Cadastrar = () => {
-    fetch('http://localhost:8080/medicos', {
+    fetch('http://localhost:8080/pacientes', {
       method: 'post',
       body: JSON.stringify(objCadastro),
       headers: {
@@ -51,16 +50,18 @@ function CadastroMedico() {
         'Accept': 'application/json'
       }
     })
-      .then(retorno => retorno.json())
       .then(retorno_convertido => {
-
-        if (retorno_convertido.mensagem !== undefined) {
+        if (retorno_convertido && retorno_convertido.mensagem) {
           alert(retorno_convertido.mensagem);
         } else {
-          setObjCadastro([cadastro]);
-          alert("Médico cadastrado com sucesso");
+          setObjCadastro(cadastro);
+          alert("Paciente cadastrado com sucesso");
         }
       })
+      .catch(error => {
+        console.error('Erro:', error);
+        alert('Erro ao cadastrar paciente');
+      });
   }
 
 
@@ -69,10 +70,10 @@ function CadastroMedico() {
       <p>{JSON.stringify(objCadastro)}
       </p>
       <Link to="/"><button>Voltar</button></Link>
-      <Formulario botao={btnsCadastrar} eventoTeclado={aoDigitar} cadastrar={Cadastrar} objCadastro={objCadastro} />
+      <Paciente botao={btnsCadastrar} eventoTeclado={aoDigitar} cadastrar={Cadastrar} objCadastro={objCadastro} />
     </div>
   );
 }
 
 
-export default CadastroMedico;
+export default CadastroPacientes;

@@ -1,4 +1,4 @@
-function Tabela({ vetor }) {
+function TabelaMedico({ vetor }) {
 
   return (
     <div className="listagem-container">
@@ -33,4 +33,4 @@ function Tabela({ vetor }) {
   )
 }
 
-export default Tabela;
+export default TabelaMedico;

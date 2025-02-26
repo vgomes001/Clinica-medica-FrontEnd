@@ -25,6 +25,35 @@
   margin: 30px auto;
 }
 
+.form-wrapperP {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px; /* Espaçamento entre a imagem e o formulário */
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.form-containerP {
+  max-width: 500px;
+  width: 90%;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 3rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-containerP img {
+  max-width: 450px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
 .image-container img {
   max-width: 300px;
   border-radius: 10px;
