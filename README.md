@@ -44,4 +44,4 @@
 
 **Pacientes Cadastrados** - Listagem dos pacientes que estão cadastrados no sistema da clínica.
   
-<img src="https://github.com/user-attachments/assets/79db6b5a-5c30-44e8-a7c9-449ec43ccf9b" width="90%" /> <br><br>
+<img src="https://github.com/user-attachments/assets/d79d10ed-ff7d-47c5-8cd0-c2e267b9bde5" width="90%" /> <br><br>
