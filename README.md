@@ -23,9 +23,14 @@
 
 **MENU** - Tela inicial com acesso ao módulos da clínica
 
- <img src="https://github.com/user-attachments/assets/344ff19a-81c2-4453-b197-db33b3509033" width="90%" />
+ <img src="https://github.com/user-attachments/assets/344ff19a-81c2-4453-b197-db33b3509033" width="90%" /><br><br>
+
+
 
  **Cadastro de Médicos** - Tela de cadastros dos médicos na clínica, preechendo os campos 
 
- <img src="https://github.com/user-attachments/assets/344ff19a-81c2-4453-b197-db33b3509033" width="90%" />
+ <img src="https://github.com/user-attachments/assets/0fa3829d-3f9b-4f2d-b750-7f4beda5a955" width="90%" /> <br><br>
+
+
+  **Médicos Cadastrados** - Tela que lista os médicos que estão cadastrados no sistema
 
