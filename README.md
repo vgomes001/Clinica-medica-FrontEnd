@@ -27,7 +27,7 @@
 
 
 
- **Cadastro de Médicos** - Módulo de cadastros dos médicos na clínica, preechendo os campos 
+ **Cadastro de Médicos** - Módulo de cadastros dos médicos na clínica, preechendo os campos.
 
  <img src="https://github.com/user-attachments/assets/0fa3829d-3f9b-4f2d-b750-7f4beda5a955" width="90%" /> <br><br>
 
@@ -37,6 +37,11 @@
 <img src="https://github.com/user-attachments/assets/f9c8942b-1830-4fa5-80ac-01e68c84b12c" width="90%" /> <br><br>
 
 
-**Cadastro de Pacientes** - Módulo de cadastro de pacientes na clínica
+**Cadastro de Pacientes** - Módulo de cadastro de pacientes na clínica.
   
-<img src="https://github.com/user-attachments/assets/f9c8942b-1830-4fa5-80ac-01e68c84b12c" width="90%" /> <br><br>
+<img src="https://github.com/user-attachments/assets/79db6b5a-5c30-44e8-a7c9-449ec43ccf9b" width="90%" /> <br><br>
+
+
+**Pacientes Cadastrados** - Listagem dos pacientes que estão cadastrados no sistema da clínica.
+  
+<img src="https://github.com/user-attachments/assets/79db6b5a-5c30-44e8-a7c9-449ec43ccf9b" width="90%" /> <br><br>
